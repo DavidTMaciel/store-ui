@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Hero Product",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": "99",
+        "hero": "OMG This just came out today!",
+        "image": "https://img.freepik.com/fotos-gratis/composicao-elegante-de-smartphone_23-2149437106.jpg?t=st=1740682835~exp=1740686435~hmac=0089eefbd49acc607d18b7dff917511906692cdb9a153cf59f1ccc14eec6fb14&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": "49",
+        "image": "https://img.freepik.com/fotos-gratis/dispositivo-digital-com-tela-de-celular_53876-97294.jpg?t=st=1740682880~exp=1740686480~hmac=72dec6852ab370e9b6093e36e09fd221f1caf2b3c1c75690386d3100cbddcfb6&w=900"
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": "79",
+        "image": "https://img.freepik.com/fotos-gratis/vista-do-balanceamento-de-produtos-eletronicos-no-podio_23-2150141321.jpg?t=st=1740682901~exp=1740686501~hmac=932d38892898a879f1b84a408b0af7a3ee9398052e40868b9f8e1bd920f6ef5b&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "price": "129",
+        "image": "https://img.freepik.com/fotos-gratis/composicao-de-mesa-de-escritorio-moderno-com-dispositivo-tecnologico_23-2147915817.jpg?t=st=1740683096~exp=1740686696~hmac=1c50a6493656544ad63263f68f01cd6fe3a321601b44bed1b14ebad14362a491&w=900"
+    }
+]
