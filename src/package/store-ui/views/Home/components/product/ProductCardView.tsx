@@ -22,7 +22,13 @@ export function ProductCardView(productCard: ProductCardProps) {
       <div className="p-4">
         <h2 className="text-xl font-semibold mb-2">{productCard.product.name}</h2>
         <p className="text-gray-600 mb-4 text-sm">{productCard.product.detail}</p>
+        {productCard.product.info && (
+          <p className="text-gray-500 text-xs mb-2">{productCard.product.info}</p>
+        )}
 
+        {productCard.product.offer && (
+          <p className="text-green-600 text-sm font-semibold mb-2">{productCard.product.offer}</p>
+        )}
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold">R$ {productCard.product.price}</span>
           <button

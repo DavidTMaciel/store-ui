@@ -20,6 +20,8 @@ export function CartItemView(cartItem: CartItemProps) {
       <div className="ml-4 flex-grow">
         <h3 className="font-semibold">{cartItem.item.name}</h3>
         <p className="text-gray-500 text-sm">{cartItem.item.detail}</p>
+        {cartItem.item.info && <p className="text-gray-400 text-xs mt-1">{cartItem.item.info}</p>}
+        {cartItem.item.offer && <p className="text-green-600 text-sm font-semibold mt-1">{cartItem.item.offer}</p>}
         <div className="flex items-center mt-1">
           <span className="text-gray-600">Qtd: {quantity}</span>
           <span className="mx-2 text-gray-400">|</span>

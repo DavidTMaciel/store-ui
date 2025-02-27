@@ -6,4 +6,6 @@ export type Product = {
     hero?: string
     image: string
     quantity?: number
+    info?: string
+    offer?: string
 }
