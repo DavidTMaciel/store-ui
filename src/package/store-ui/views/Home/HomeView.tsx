@@ -19,8 +19,17 @@ export default function HomeView() {
 
   async function init() {
     const data = await homeController.fetchProducts()
-    setProducts(data)
+    const products = addIDProducts(data)
+    setProducts(products)
     setIsLoading(false)
+  }
+
+  function addIDProducts(data: Product[]) {
+    const productsWithId = data.map((product, index) => ({
+      ...product,
+      id: index + 1,
+    }));
+    return productsWithId
   }
 
   function handleGetTotalPrice() {
@@ -53,13 +62,13 @@ export default function HomeView() {
 
   if (isLoading) {
     return (
-        <div className="flex justify-center items-center h-screen">
-            <Box>
-                <CircularProgress size={'50px'} />
-            </Box>
-        </div>
+      <div className="flex justify-center items-center h-screen">
+        <Box>
+          <CircularProgress size={'50px'} />
+        </Box>
+      </div>
     );
-}
+  }
 
   return (
     <main className="min-h-screen bg-gray-50">

@@ -1,11 +1,11 @@
 
-import Home from '@/src/package/store-ui/views/Home/HomeView'
+import HomeView from '@/src/package/store-ui/views/Home/HomeView'
 import './globals.css'
 
-export default function Login() {
+export default function Home() {
   return (
     <div>
-      <Home />
+      <HomeView />
     </div>
   )
 }
